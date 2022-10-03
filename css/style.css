@@ -1,0 +1,19 @@
+body {
+    background-color: #0d0d0d;
+    font-family: Comic Sans MS;
+}
+
+.main{
+    width: 300px;
+    margin: 200px;
+}
+
+.links-box{
+    display: flex;
+    width: 300px;
+    margin-left: 575px;
+}
+
+.Face_im{
+    margin-left: 600px;
+}
