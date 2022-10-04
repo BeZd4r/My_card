@@ -5,15 +5,28 @@ body {
 
 .main{
     width: 300px;
-    margin: 200px;
+    margin: 200px auto;
+    text-align: center;
 }
 
 .links-box{
     display: flex;
-    width: 300px;
-    margin-left: 575px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.Face_im{
-    margin-left: 600px;
+.links:hover{
+    transition: 1s;
+    transform: scale(1.135);
 }
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
